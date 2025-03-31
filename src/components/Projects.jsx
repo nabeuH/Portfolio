@@ -13,11 +13,19 @@ const Projects = () => {
                 width={150}
                 height={150}
                 alt={project.title}
-                className="mb-6 rounded"
+                className="mb-6 rounded cursor-pointer"
+                onClick={() => window.open(project.link, '_blank')}
               />
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-2 font-semibold"
+              >
+                {project.title}
+              </a>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               <div>
                 {project.technologies.map((tech, index) => (

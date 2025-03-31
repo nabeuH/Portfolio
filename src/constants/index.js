@@ -1,6 +1,7 @@
 import TempleTracker_Pic from "../assets/TempleTracker.jpg"
 import AdaptEd_Pic from "../assets/AdaptEd.png"
 import Python_Pic from "../assets/Python.png"
+import NH_Pic from "../assets/NH_Logo.png"
 
 
 export const HERO_CONTENT = `I am a first-generation Ethiopian college student studying Computer Science at The Ohio State University. Through my academic journey and personal projects, I have developed a strong foundation in programming and a drive to solve complex problems. I am passionate about becoming a full-stack software engineer to make a positive impact on people's lives. I'm excited to continue learning, collaborating, building innovative solutions, and yes, coding!`;
@@ -37,6 +38,7 @@ export const PROJECTS = [
     description:
       "A fullstack wellness app focused on tracking exersize, sleep, and eating habits.",
     technologies: ["HTML", "CSS", "Next.js", "TypeScript", "Firebase"],
+    link: "https://github.com/nabeuH/Temple-Tracker",
   },
   {
     title: "AdaptEd",
@@ -44,6 +46,15 @@ export const PROJECTS = [
     description:
       "A fullstack web-app for Opprotunity International. The app provides resourses for teachers in remote location around the world including a lesson plan generator, student retention tracker, language customization, and a friends feature.",
     technologies: ["HTML", "CSS", "React", "Firebase", "Gemini Api"],
+    link: "https://github.com/cfgcolumbus24/Team-9",
+  },
+  {
+    title: "Portfolio Website",
+    image: NH_Pic,
+    description:
+      "What you are looking at now!",
+    technologies: ["React", "Vite", "Tailwind", "Framer Motion"],
+    link: "https://github.com/nabeuH/Portfolio",
   },
   {
     title: "Automated File Organizer",
@@ -51,6 +62,7 @@ export const PROJECTS = [
     description:
       "A script that extracts the file extention from my files in my download folder and moves them to their designated folders. Automated this process with the macOs built-in automater.",
     technologies: ["Python", "macOs"],
+    link: "https://github.com/nabeuH/File-Organizer",
   },
 ];
 

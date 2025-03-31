@@ -1,4 +1,4 @@
-import logo from "../assets/NH Logo.png";
+import logo from "../assets/NH_Logo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
